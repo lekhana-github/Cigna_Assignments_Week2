@@ -94,9 +94,7 @@ GROUP BY d.Dname;
 
 ---
 
---g. Find departments that have more than 3 employees
-
-Display department name and employee count.
+--g. Find departments that have more than 3 employee.Display department name and employee count.
 
 SELECT d.Dname, COUNT(e.Empno) AS Num_Employees
 FROM Dept d
